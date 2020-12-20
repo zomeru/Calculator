@@ -339,76 +339,76 @@ public class Calculator extends JFrame {
         });
 
         //Button Plus
-        btnPlus.setFont(new java.awt.Font("Roboto Condensed", 1, 18));
-        btnPlus.setForeground(new java.awt.Color(255, 255, 255));
-        btnPlus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttons/box_purple.jpg")));
+        btnPlus.setFont(new Font("Roboto Condensed", 1, 18));
+        btnPlus.setForeground(new Color(255, 255, 255));
+        btnPlus.setIcon(new ImageIcon(getClass().getResource("/buttons/box_purple.jpg")));
         btnPlus.setText("+");
-        btnPlus.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnPlus.setPreferredSize(new java.awt.Dimension(70, 70));
-        btnPlus.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/buttons/box_purple_clicked.jpg")));
-        btnPlus.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/buttons/box_purple_hover.jpg")));
-        btnPlus.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent e) {
+        btnPlus.setHorizontalTextPosition(SwingConstants.CENTER);
+        btnPlus.setPreferredSize(new Dimension(70, 70));
+        btnPlus.setPressedIcon(new ImageIcon(getClass().getResource("/buttons/box_purple_clicked.jpg")));
+        btnPlus.setRolloverIcon(new ImageIcon(getClass().getResource("/buttons/box_purple_hover.jpg")));
+        btnPlus.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
                 btnPlusActionPerformed(e);
             }
         });
 
         //Button Minus
-        btnMinus.setFont(new java.awt.Font("Roboto Condensed", 1, 18));
-        btnMinus.setForeground(new java.awt.Color(255, 255, 255));
-        btnMinus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttons/box_purple.jpg")));
+        btnMinus.setFont(new Font("Roboto Condensed", 1, 18));
+        btnMinus.setForeground(new Color(255, 255, 255));
+        btnMinus.setIcon(new ImageIcon(getClass().getResource("/buttons/box_purple.jpg")));
         btnMinus.setText("-");
-        btnMinus.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnMinus.setPreferredSize(new java.awt.Dimension(70, 70));
-        btnMinus.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/buttons/box_purple_clicked.jpg")));
-        btnMinus.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/buttons/box_purple_hover.jpg")));
-        btnMinus.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent e) {
+        btnMinus.setHorizontalTextPosition(SwingConstants.CENTER);
+        btnMinus.setPreferredSize(new Dimension(70, 70));
+        btnMinus.setPressedIcon(new ImageIcon(getClass().getResource("/buttons/box_purple_clicked.jpg")));
+        btnMinus.setRolloverIcon(new ImageIcon(getClass().getResource("/buttons/box_purple_hover.jpg")));
+        btnMinus.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
                 btnMinusActionPerformed(e);
             }
         });
 
         //Button Multiply
-        btnMultiply.setFont(new java.awt.Font("Roboto Condensed Light", 1, 18));
-        btnMultiply.setForeground(new java.awt.Color(255, 255, 255));
-        btnMultiply.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttons/box_purple.jpg")));
+        btnMultiply.setFont(new Font("Roboto Condensed Light", 1, 18));
+        btnMultiply.setForeground(new .Color(255, 255, 255));
+        btnMultiply.setIcon(new ImageIcon(getClass().getResource("/buttons/box_purple.jpg")));
         btnMultiply.setText("x");
-        btnMultiply.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnMultiply.setPreferredSize(new java.awt.Dimension(70, 70));
-        btnMultiply.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/buttons/box_purple_clicked.jpg")));
-        btnMultiply.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/buttons/box_purple_hover.jpg")));
-        btnMultiply.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent e) {
+        btnMultiply.setHorizontalTextPosition(SwingConstants.CENTER);
+        btnMultiply.setPreferredSize(new Dimension(70, 70));
+        btnMultiply.setPressedIcon(new ImageIcon(getClass().getResource("/buttons/box_purple_clicked.jpg")));
+        btnMultiply.setRolloverIcon(new ImageIcon(getClass().getResource("/buttons/box_purple_hover.jpg")));
+        btnMultiply.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
                 btnMultiplyActionPerformed(e);
             }
         });
 
         //Button Divide
-        btnDivide.setFont(new java.awt.Font("Roboto Condensed", 1, 18));
-        btnDivide.setForeground(new java.awt.Color(255, 255, 255));
-        btnDivide.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttons/box_purple.jpg")));
+        btnDivide.setFont(new Font("Roboto Condensed", 1, 18));
+        btnDivide.setForeground(new Color(255, 255, 255));
+        btnDivide.setIcon(new ImageIcon(getClass().getResource("/buttons/box_purple.jpg")));
         btnDivide.setText("÷");
-        btnDivide.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnDivide.setPreferredSize(new java.awt.Dimension(70, 70));
-        btnDivide.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/buttons/box_purple_clicked.jpg")));
-        btnDivide.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/buttons/box_purple_hover.jpg")));
-        btnDivide.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent e) {
+        btnDivide.setHorizontalTextPosition(SwingConstants.CENTER);
+        btnDivide.setPreferredSize(new Dimension(70, 70));
+        btnDivide.setPressedIcon(new ImageIcon(getClass().getResource("/buttons/box_purple_clicked.jpg")));
+        btnDivide.setRolloverIcon(new ImageIcon(getClass().getResource("/buttons/box_purple_hover.jpg")));
+        btnDivide.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
                 btnDivideActionPerformed(e);
             }
         });
 
         //Button Equal
-        btnEqual.setFont(new java.awt.Font("Roboto Condensed", 1, 18));
+        btnEqual.setFont(new Font("Roboto Condensed", 1, 18));
         btnEqual.setForeground(new java.awt.Color(51, 51, 51));
-        btnEqual.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttons/box_yellow.jpg")));
+        btnEqual.setIcon(new ImageIcon(getClass().getResource("/buttons/box_yellow.jpg")));
         btnEqual.setText("=");
-        btnEqual.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnEqual.setPreferredSize(new java.awt.Dimension(70, 70));
-        btnEqual.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/buttons/box_yellow_clicked.jpg")));
-        btnEqual.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/buttons/box_yellow_hover.jpg")));
-        btnEqual.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent e) {
+        btnEqual.setHorizontalTextPosition(SwingConstants.CENTER);
+        btnEqual.setPreferredSize(new Dimension(70, 70));
+        btnEqual.setPressedIcon(new ImageIcon(getClass().getResource("/buttons/box_yellow_clicked.jpg")));
+        btnEqual.setRolloverIcon(new ImageIcon(getClass().getResource("/buttons/box_yellow_hover.jpg")));
+        btnEqual.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
                 btnEqualActionPerformed(e);
             }
         });
