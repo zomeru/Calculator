@@ -63,7 +63,7 @@ public class Calculator extends JFrame {
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setTitle("Calculator");
-        setPreferredSize(new java.awt.Dimension(306, 538));
+        setPreferredSize(new Dimension(306, 538));
         setResizable(false);
         setIconImage(frameIcon.getImage());
 
