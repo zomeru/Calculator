@@ -290,22 +290,6 @@ public class Calculator extends JFrame {
             }
         });
 
-        //Button Clear
-        btnClear.setFont(new Font("Roboto Condensed Light", 1, 18));
-        btnClear.setForeground(new Color(255, 255, 255));
-        btnClear.setIcon(new ImageIcon(getClass().getResource("/buttons/box.jpg")));
-        btnClear.setText("C");
-        btnClear.setHorizontalTextPosition(SwingConstants.CENTER);
-        btnClear.setPreferredSize(new Dimension(70, 70));
-        btnClear.setPressedIcon(new ImageIcon(getClass().getResource("/buttons/box_clicked.jpg")));
-        btnClear.setRolloverIcon(new ImageIcon(getClass().getResource("/buttons/box_hover.jpg")));
-        btnClear.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                btnClearActionPerformed(e);
-            }
-        });
-
         //Button Positive Negative
         btnPosNeg.setFont(new Font("Roboto Condensed Light", 1, 18));
         btnPosNeg.setForeground(new Color(255, 255, 255));
